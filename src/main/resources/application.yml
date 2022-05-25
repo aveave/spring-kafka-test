@@ -1,0 +1,10 @@
+kafka:
+    order:
+        bootstrap-server: ${BOOTSTRAP_SERVER:localhost:9092}
+        topic: order-topic
+    notification:
+        bootstrap-server: ${BOOTSTRAP_SERVER:localhost:9092}
+        topic: notification-topic
+
+server:
+    port: ${PORT:8090}
